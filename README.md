@@ -1,9 +1,9 @@
 # spring-jvm #
 JVM练习，熟悉启动项和简单的问题排错；
 
-# JVM —— 运行参数 #
 ## IDEA 如何配置 ##
-例：设置JAVA虚拟机启动项
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20190314163709208.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0N5X0xpZ2h0QnVsZQ==,size_16,color_FFFFFF,t_70)
+脚本内容如下：
 ```shell
 -server -Xmx3550m -Xms3550m -Xmn1256m -Xss128k -XX:SurvivorRatio=6 -XX:MaxPermSize=256m -XX:ParallelGCThreads=8 -XX:MaxTenuringThreshold=0 -XX:+UseConcMarkSweepGC
 ```
